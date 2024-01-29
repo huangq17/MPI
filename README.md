@@ -1,4 +1,4 @@
-MultiPeak Ice (MPI) is a new processing approach designed specifically for complex ice surfaces, where the majority of ice mass imbalance occurs, and is able to reliably retrieve multiple elevation measurements from a single altimetry echo. MPI_retrackWaveform.py is the main code. Download relevant data (see below), revise the data location as per your directory, and add the code directory to your Python development environment (i.e., Spdyer).
+MultiPeak Ice (MPI) is a new processing approach designed specifically for complex ice surfaces, where the majority of ice mass imbalance occurs, and is able to reliably retrieve multiple elevation measurements from a single altimetry echo. MPI_retrackWaveform.py is the main code. Download relevant data (see below), revise the data location as per your directory, and add the code directory to your Python development environment (e.g., Spdyer).
 
 1.	Download Sentinel-3A data from Copernicus Data Space Ecosystem at https://dataspace.copernicus.eu/. Change the directory of S3A to your own folder in MPI_retrackWaveform.py (Lines 1073-1074). One example of S3A data is below:
 
