@@ -11,10 +11,10 @@ MultiPeak Ice (MPI) is a new processing approach designed specifically for compl
 3.	Download DEMs
 MPI now supports two DEMs, choose either one of them for your research and you can add your own DEMs by revising the dem.py
  
-(a) 1km DEM downloaded from: http://data.pgc.umn.edu/elev/dem/setsm/ArcticDEM/mosaic/v3.0/1km/arcticdem_mosaic_1km_v3.0.tif.
+  (a) 1km DEM downloaded from: http://data.pgc.umn.edu/elev/dem/setsm/ArcticDEM/mosaic/v3.0/1km/arcticdem_mosaic_1km_v3.0.tif.
 Download the dem and rename it as ‘arcticdem_mosaic_1km_v3.0.tif’. Make sure to change the data directory to your own folder at Line 42 in dem.py
  
-(b) 100m DEM downloaded from: https://data.pgc.umn.edu/elev/dem/setsm/ArcticDEM/mosaic/v3.0/100m/arcticdem_mosaic_100m_v3.0.tif
+  (b) 100m DEM downloaded from: https://data.pgc.umn.edu/elev/dem/setsm/ArcticDEM/mosaic/v3.0/100m/arcticdem_mosaic_100m_v3.0.tif
 Download the DEM, apply a 9-year linear dh/dt to the DEM(optional), and rename it as ‘arcticdem_mosaic_100m_v3.0_greenland_9dhdt.tif’. Make sure to change the data directory to your own folder at Line 74 in dem.py
 
 4. Run MPI_retrackWaveform.py
