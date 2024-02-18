@@ -20,3 +20,6 @@ Download the DEM, apply a 9-year linear dh/dt to the DEM(optional), and rename i
 4. Run MPI_retrackWaveform.py
 
 Contact: q.huang13@lancaster.ac.uk
+
+Citation:
+Huang, Q., McMillan, M., Muir, A., Phillips, J., & Slater, T. (2024). Multipeak retracking of radar altimetry waveforms over ice sheets. Remote Sensing of Environment, 303, 114020
